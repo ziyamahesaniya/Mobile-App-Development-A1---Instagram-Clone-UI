@@ -21,7 +21,6 @@ export default function HomeScreen() {
   return (
     <View style={styles.root}>
       <View style={styles.statusBar} />
-
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.scrollContent}
@@ -39,7 +38,6 @@ export default function HomeScreen() {
             <Text style={styles.moreIcon}>···</Text>
           </TouchableOpacity>
         </View>
-
         {/* Post Header */}
         <View style={styles.postHeader}>
           <View style={styles.postHeaderLeft}>
@@ -60,7 +58,6 @@ export default function HomeScreen() {
             <Text style={styles.moreIcon}>···</Text>
           </TouchableOpacity>
         </View>
-
         {/* Post Image */}
         <View style={styles.postImageWrapper}>
           <Image
@@ -71,8 +68,7 @@ export default function HomeScreen() {
             resizeMode="cover"
           />
         </View>
-
-        {/* Action Icons */}
+        /* Action Icons */
         <View style={styles.actions}>
           <View style={styles.actionsLeft}>
             <TouchableOpacity style={styles.actionBtn}>
@@ -89,8 +85,7 @@ export default function HomeScreen() {
             <Text style={styles.actionIcon}>⬡</Text>
           </TouchableOpacity>
         </View>
-
-        {/* Likes */}
+        /* Likes */
         <View style={styles.likesRow}>
           <View style={styles.miniAvatars}>
             <View
@@ -111,21 +106,18 @@ export default function HomeScreen() {
             <Text style={styles.bold}>7 others</Text>
           </Text>
         </View>
-
-        {/* Caption */}
+        /* Caption */
         <View style={styles.captionRow}>
           <Text style={styles.captionText}>
             <Text style={styles.bold}>frenchie_fry39</Text>
             {"  "}Fresh shot on a sunny day! ☀️
           </Text>
         </View>
-
-        {/* View Comments */}
+        /* View Comments */
         <TouchableOpacity style={styles.viewComments}>
           <Text style={styles.viewCommentsText}>View all 12 comments</Text>
         </TouchableOpacity>
-
-        {/* Comments */}
+        /* Comments */
         <View style={styles.commentsSection}>
           <View style={styles.commentRow}>
             <Text style={styles.commentText}>
@@ -140,14 +132,11 @@ export default function HomeScreen() {
             </Text>
           </View>
         </View>
-
-        {/* Timestamp */}
+        /* Timestamp */
         <Text style={styles.timestamp}>18 hours ago</Text>
-
         <View style={{ height: 100 }} />
       </ScrollView>
-
-      {/* Bottom Nav */}
+      /* Bottom Nav */
       <View style={styles.bottomNav}>
         <TouchableOpacity style={styles.navItem}>
           <Text style={styles.navIcon}>⌂</Text>
@@ -165,8 +154,7 @@ export default function HomeScreen() {
           <View style={styles.profileNavAvatar} />
         </TouchableOpacity>
       </View>
-
-      {/* Alert Button */}
+      /* Alert Button */
       <View style={styles.alertBtnWrapper}>
         <TouchableOpacity
           style={styles.alertBtn}
