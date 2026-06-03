@@ -16,9 +16,9 @@ import {
 export default function HomeScreen() {
   const handleAlert = () => {
     if (Platform.OS === "web") {
-      window.alert("Alert Button pressed");
+      window.alert("Alert Button Pressed");
     } else {
-      Alert.alert("Alert Button pressed");
+      Alert.alert("Alert Button Pressed");
     }
   };
 
